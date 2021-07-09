@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="kitt_systems" name="audio" type="audio.py" output="screen" />
+	<node pkg="kitt_systems" name="display" type="display.py" output="screen" />
+	<node pkg="kitt_systems" name="aimlchatpy" type="aimlchat.py" output="screen" />
+	<node pkg="kitt_systems" name="synthesizerpy" type="synthesizer.py" output="screen" />
+</launch>
